@@ -3,8 +3,8 @@ const express = require("express");
 const defaultRouter = express.Router();
 
 // other routers
-const baseV1Router = require("../baseV1");
+const userRouter = require("../users");
 
-defaultRouter?.use("/baseV1", baseV1Router);
+defaultRouter?.use("/users", userRouter);
 
 module.exports = defaultRouter;
