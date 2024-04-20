@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "basic-expressjs-server",
+  "description": "A basic Node.js Express server for building web applications and APIs. Features routing, middleware support, error handling, and scalability. Easy to configure and suitable for small to medium-scale projects.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
